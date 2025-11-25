@@ -2,12 +2,13 @@ package tests
 
 import (
 	"fmt"
+	"reflect"
+	"testing"
+
 	"github.com/goal-web/container"
 	"github.com/goal-web/contracts"
 	"github.com/goal-web/supports/utils"
 	"github.com/stretchr/testify/assert"
-	"reflect"
-	"testing"
 )
 
 type DemoParam struct {
